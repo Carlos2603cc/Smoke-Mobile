@@ -24,6 +24,7 @@ class Smoke_Mobile(unittest.TestCase):
         self.pas="1234"
         self.wait = WDW(self.driver, 100)
     #esto es una prueba
+        #showLibraryContents
 
         #login
         self.driver.find_element(By.ID, "ar.com.unisolutions.unigis_deliveries_x:id/email").send_keys(self.user)
